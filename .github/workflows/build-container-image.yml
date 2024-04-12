@@ -7,8 +7,6 @@ name: Build and push container image
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '00 18 * * *'
   push:
     branches: [ "main" ]
     # Publish semver tags as releases.
